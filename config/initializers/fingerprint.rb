@@ -1,0 +1,1 @@
+ASSET_FINGERPRINT = "ba9b5e880add98ec60db"

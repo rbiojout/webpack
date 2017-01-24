@@ -1,0 +1,18 @@
+from http://pixelatedworks.com/articles/replacing-the-rails-asset-pipeline-with-webpack-and-yarn/
+
+yar init
+yarn add --dev webpack
+
+yarn add --dev babel-core babel-preset-es2015 babel-polyfill
+
+yarn add --dev babel-loader # loader for webpack
+
+yarn add --dev style-loader
+
+yarn add --dev css-loader style-loader extract-text-webpack-plugin
+
+yarn add --dev style-loader
+
+yarn add --dev sass-loader node-sass
+
+yarn add --dev url-loader file-loader
