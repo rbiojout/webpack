@@ -16,3 +16,9 @@ yarn add --dev style-loader
 yarn add --dev sass-loader node-sass
 
 yarn add --dev url-loader file-loader
+
+
+HEROKU
+heroku buildpacks:clear
+heroku buildpacks:set heroku/nodejs
+heroku buildpacks:add heroku/ruby --index 2
